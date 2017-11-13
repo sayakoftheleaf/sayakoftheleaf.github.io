@@ -1,0 +1,27 @@
+body{
+	background: #C6C6E0;
+}
+
+.Items{
+	width: 287px;
+	height: 197px;
+	/*border-color: black; 
+	border-style: solid;*/
+	display: inline-block;
+	position: relative;
+}
+
+.Title{
+	div-align = "left";
+	width: 100px;
+	height: 30px;
+	background: black;
+	font-color: white;
+	text-transform: uppercase;
+	position: absolute;
+}
+
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
