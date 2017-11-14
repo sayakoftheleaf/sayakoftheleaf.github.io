@@ -1,5 +1,4 @@
 body{
-	position: relative;
 	background: #C6C6E0;
 }
 
@@ -22,19 +21,39 @@ a{
 	border-style: solid;
 	position: absolute;
 	top: 46%;
-  left: 46%;
-  margin: -300px 0 0 -300px;
+  	left: 46%;
+  	margin: -300px 0 0 -500px;
 	display: grid;
-	grid-template-columns: repeat(6, 100px);
+	/*grid-gap: 1rem;*/
+	grid-template-columns: repeat(10, 100px);
 	grid-template-rows: repeat(6, 100px);
-	grid-gap: 1rem;
 	justify-content: center;
 }
 
 .Items{
 	border-color: black; 
 	border-style: solid;
+	z-index: 200;
 }
+
+.Photo{
+	border-radius: 50%;
+	overflow: hidden;
+	grid-area: 1/4/4/7;
+	}
+
+.Photo img{
+	width: 100%;
+	height: 100%;
+}
+/*
+.Photo img:hover {
+	width: 100%;
+	height: 100%;
+	-webkit-filter: grayscale(0);
+  	filter: grayscale(0);
+}*/
+
 
 .Aruki{
 	grid-area: 2/1/5/4;
@@ -58,9 +77,33 @@ a{
 	text-shadow: 2px 2px 4px #000000;
 }
 
+.Resume:hover{
+	grid-area: 1/1/2/4;
+}
+
+.Other_Coding_Projects{
+	grid-area: 5/1/7/4;
+}
+
+.Film_Projects{
+
+}
+
+.Personal_Blog img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
 img{
 	max-height: 100%;
 	max-width: 100%;
+	-webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+}
+
+img:hover{
+	-webkit-filter: grayscale(0);
+  	filter: grayscale(0);
 }
 
 .Site_Map{
