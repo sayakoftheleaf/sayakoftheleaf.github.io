@@ -2,12 +2,15 @@ body{
 	background: #C6C6E0;
 }
 
+.wrapper{
+	display: grid;
+}
+
 .Items{
 	width: 287px;
 	height: 197px;
 	/*border-color: black; 
 	border-style: solid;*/
-	display: inline-block;
 	position: relative;
 }
 
@@ -19,6 +22,10 @@ body{
 	font-color: white;
 	text-transform: uppercase;
 	position: absolute;
+}
+
+.Title a{
+	font-color: ;
 }
 
 img{
