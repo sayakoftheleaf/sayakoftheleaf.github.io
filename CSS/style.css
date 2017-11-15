@@ -7,12 +7,26 @@ a{
 	text-decoration: none;
 }
 
-.wrapper{
+.left_pane{
+	position: fixed;
+	min-width: 109px;
+	height:100%;
+	top:0;
+	left:0;
+}
 
-	position: absolute;
-	top: 10%;
-  	left: 10%;
-  	margin: 0 0 0 0;
+.right_pane{
+	position: fixed;
+	min-width: 109px;
+	height:100%;
+	top:0;
+	right:0;
+}
+
+.wrapper{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto; 
 	display: grid;
 	grid-gap: .5rem;
 	grid-template-columns: repeat(7, 100px) 30px repeat(4, 100px);
