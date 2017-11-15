@@ -58,9 +58,11 @@ a{
 }
 
 .Photo{
+	margin-left: 20px; 
+	margin-right: 20px;
 	border-radius: 50%;
 	overflow: hidden;
-	grid-area: 2/5/5/8;
+	grid-area: 2/5/5/9;
 	}
 
 .Photo img{
@@ -69,7 +71,7 @@ a{
 }
 
 .Aruki{
-	grid-area: 2/1/5/5;
+	grid-area: 3/1/5/5;
 	overflow: hidden;
 }
 
@@ -134,8 +136,8 @@ a{
 }
 
 .Aruki img{
-	max-width: 115%;
-	max-height: 110%;
+	max-width: 170%;
+	max-height: 140%;
 }
 
 img{
