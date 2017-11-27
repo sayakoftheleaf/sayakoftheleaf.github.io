@@ -34,6 +34,10 @@ a{
 	grid-template-rows: repeat(6, 100px) 22px;
 	justify-content: center;
 }
+
+.wrapper div{
+	position: relative;
+}
 /*
 .Items{
 	border-color: black; 
@@ -79,6 +83,7 @@ a{
 	margin-right: 20px;
 	border-radius: 50%;
 	overflow: hidden;
+
 	grid-area: 2/5/5/9;
 	}
 
@@ -168,6 +173,8 @@ img:hover{
 	-webkit-filter: grayscale(0);
   	filter: grayscale(0);
 }
+<<<<<<< HEAD
+=======
 
 .Item_title{
 	position: absolute;
@@ -205,3 +212,4 @@ img:hover{
 .description{
 	color: white;
 }
+>>>>>>> dbe94ac7e6ad71fbac6b274ec2172ee22292fd9e
