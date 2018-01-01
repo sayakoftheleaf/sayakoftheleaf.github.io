@@ -24,7 +24,7 @@ a{
 }
 
 .wrapper{
-	position: relative;
+	/*position: relative;*/
 	margin-right: auto;
 	margin-left: auto; 
 	margin-top: 70px; 
@@ -35,9 +35,9 @@ a{
 	justify-content: center;
 }
 
-.wrapper div{
+/*.wrapper div{
 	position: relative;
-}
+}*/
 /*
 .Items{
 	border-color: black; 
@@ -173,8 +173,6 @@ img:hover{
 	-webkit-filter: grayscale(0);
   	filter: grayscale(0);
 }
-<<<<<<< HEAD
-=======
 
 .Item_title{
 	position: absolute;
@@ -196,6 +194,7 @@ img:hover{
 	background-color: black;
 	color: white;
 	opacity: 0.6;
+	position: relative;
 	text-align: center;
 	vertical-align: middle; 
 	display: none;
@@ -211,5 +210,14 @@ img:hover{
 
 .description{
 	color: white;
+	position: absolute;
+	top: 100px;
+	padding-left: 100px;
+	padding-right: 100px; 
+	vertical-align: middle;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 1px 1px #120000;
 }
->>>>>>> dbe94ac7e6ad71fbac6b274ec2172ee22292fd9e
+
