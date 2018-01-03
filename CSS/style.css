@@ -57,10 +57,18 @@ a{
 
 
 .FoxPirate{
-	grid-area: 1/11/2/11;
+	grid-area: 2/10/3/11;
 }
 
-.Resume, .Other_Coding_Projects, .Aruki, .Film_Writing, .Film_Projects, .Personal_Blog, .Photo{
+.GRIDless{
+	grid-area: 2/3/3/4;
+}
+
+.LIT{
+	grid-area:2/2/3/2/;
+}
+
+.Resume, .Other_Coding_Projects, .Aruki, .Film_Writing, .Film_Projects, .Personal_Blog, .Photo, .blockText{
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	position: relative;
 }
@@ -113,6 +121,14 @@ a{
 	text-transform: uppercase;
 	grid-area: 1/1/2/3;
 	text-shadow: 2px 2px 4px #000000;
+}
+
+#Portfolio{
+	grid-area:1/11/2/13;
+}
+
+#Portfolio:hover{
+	grid-area:1/10/2/13;
 }
 
 .Other_Coding_Projects{
@@ -193,19 +209,48 @@ img:hover{
 	grid-area:2/1/8/13;
 	background-color: black;
 	color: white;
-	opacity: 0.6;
+	opacity: 1.0;
 	position: relative;
-	text-align: center;
+	text-align: right;
 	vertical-align: middle; 
 	display: none;
 	overflow: hidden;
 }
 
 .blockText img{
-	max-height: 120%; 
-	max-width: 120%;
-	-webkit-filter: grayscale(1);
-  	filter: grayscale(1);
+	display: inline-block;
+	max-height: 100%; 
+	max-width: 100%;
+
+}
+
+.right_img{
+	padding-top: 50px;
+	padding-right: 30px;
+	-webkit-filter: grayscale(0);
+  	filter: grayscale(0);
+}
+
+#right_profile{
+	height: 250px;
+	width: 250px;
+}
+
+#right_aruki{
+	height: 300px;
+	width: 300px;
+}
+
+#right_ominous{
+	padding-top: 0px;
+	width: 310px;
+	height:350px;
+}
+
+#right_pupper{
+	height: 70px;
+	width: 300px;
+	padding-top: 150px;
 }
 
 .description{
@@ -217,7 +262,43 @@ img:hover{
 	vertical-align: middle;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 24px;
-	text-align: center;
+	text-align: left;
 	text-shadow: 1px 1px #120000;
 }
 
+#about{
+	padding-right: 300px;
+	font-size: 22px;
+}
+
+#about_aruki{
+	padding-right: 400px;
+	font-size: 22px;
+}
+
+#about_filmmaking{
+	padding-right: 400px;
+	font-size: 22px;
+	text-align: left;
+}
+
+#about_coding{
+	padding-right: 400px;
+	font-size: 22px;
+	text-align: left;
+}
+
+.listconfig{
+	top: 130px;
+	text-align: left;
+	padding-left: 150px;
+}
+
+#project_list{
+}
+
+.back_button{
+	width: 70px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
