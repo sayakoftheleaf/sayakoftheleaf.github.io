@@ -26,8 +26,8 @@ a{
 .wrapper{
 	/*position: relative;*/
 	margin-right: auto;
-	margin-left: auto; 
-	margin-top: 70px; 
+	margin-left: auto;
+	margin-top: 70px;
 	display: grid;
 	grid-gap: .5rem;
 	grid-template-columns: repeat(7, 100px) 30px repeat(4, 100px);
@@ -40,7 +40,7 @@ a{
 }*/
 /*
 .Items{
-	border-color: black; 
+	border-color: black;
 	border-style: solid;
 
 }*/
@@ -64,8 +64,8 @@ a{
 	grid-area: 2/3/3/4;
 }
 
-.LIT{
-	grid-area:2/2/3/2/;
+.lit{
+	grid-area:2/2/3/2;
 }
 
 .Resume, .Other_Coding_Projects, .Aruki, .Film_Writing, .Film_Projects, .Personal_Blog, .Photo, .blockText{
@@ -87,7 +87,7 @@ a{
 }
 
 .Photo{
-	margin-left: 20px; 
+	margin-left: 20px;
 	margin-right: 20px;
 	border-radius: 50%;
 	overflow: hidden;
@@ -212,14 +212,14 @@ img:hover{
 	opacity: 1.0;
 	position: relative;
 	text-align: right;
-	vertical-align: middle; 
+	vertical-align: middle;
 	display: none;
 	overflow: hidden;
 }
 
 .blockText img{
 	display: inline-block;
-	max-height: 100%; 
+	max-height: 100%;
 	max-width: 100%;
 
 }
@@ -258,7 +258,7 @@ img:hover{
 	position: absolute;
 	top: 100px;
 	padding-left: 100px;
-	padding-right: 100px; 
+	padding-right: 100px;
 	vertical-align: middle;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 24px;
