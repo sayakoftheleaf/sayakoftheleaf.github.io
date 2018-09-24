@@ -24,7 +24,6 @@ a{
 }
 
 .wrapper{
-	/*position: relative;*/
 	margin-right: auto;
 	margin-left: auto; 
 	margin-top: 70px; 
@@ -34,16 +33,6 @@ a{
 	grid-template-rows: repeat(6, 100px) 22px;
 	justify-content: center;
 }
-
-/*.wrapper div{
-	position: relative;
-}*/
-/*
-.Items{
-	border-color: black; 
-	border-style: solid;
-
-}*/
 
 #page_title{
 	width: 100%;
@@ -64,8 +53,8 @@ a{
 	grid-area: 2/3/3/4;
 }
 
-.LIT{
-	grid-area:2/2/3/2/;
+.lit{
+	grid-area: 2/2/3/3;
 }
 
 .Resume, .Other_Coding_Projects, .Aruki, .Film_Writing, .Film_Projects, .Personal_Blog, .Photo, .blockText{

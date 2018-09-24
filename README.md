@@ -11,6 +11,7 @@ TODO:
 - Add descriptions for Lit and GRIDless
 
 Known Bugs:
+- LIT logo appears slower than everything else
 
 Implemented already:
 
