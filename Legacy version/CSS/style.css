@@ -25,8 +25,8 @@ a{
 
 .wrapper{
 	margin-right: auto;
-	margin-left: auto; 
-	margin-top: 70px; 
+	margin-left: auto;
+	margin-top: 70px;
 	display: grid;
 	grid-gap: .5rem;
 	grid-template-columns: repeat(7, 100px) 30px repeat(4, 100px);
@@ -34,6 +34,19 @@ a{
 	justify-content: center;
 }
 
+<<<<<<< HEAD:Legacy version/CSS/style.css
+=======
+/*.wrapper div{
+	position: relative;
+}*/
+/*
+.Items{
+	border-color: black;
+	border-style: solid;
+
+}*/
+
+>>>>>>> 01aa38bd0261e25633c3536de087371abbbc7ec3:CSS/style.css
 #page_title{
 	width: 100%;
 	text-align: center;
@@ -54,7 +67,11 @@ a{
 }
 
 .lit{
+<<<<<<< HEAD:Legacy version/CSS/style.css
 	grid-area: 2/2/3/3;
+=======
+	grid-area:2/2/3/2;
+>>>>>>> 01aa38bd0261e25633c3536de087371abbbc7ec3:CSS/style.css
 }
 
 .Resume, .Other_Coding_Projects, .Aruki, .Film_Writing, .Film_Projects, .Personal_Blog, .Photo, .blockText{
@@ -76,7 +93,7 @@ a{
 }
 
 .Photo{
-	margin-left: 20px; 
+	margin-left: 20px;
 	margin-right: 20px;
 	border-radius: 50%;
 	overflow: hidden;
@@ -201,14 +218,14 @@ img:hover{
 	opacity: 1.0;
 	position: relative;
 	text-align: right;
-	vertical-align: middle; 
+	vertical-align: middle;
 	display: none;
 	overflow: hidden;
 }
 
 .blockText img{
 	display: inline-block;
-	max-height: 100%; 
+	max-height: 100%;
 	max-width: 100%;
 
 }
@@ -247,7 +264,7 @@ img:hover{
 	position: absolute;
 	top: 100px;
 	padding-left: 100px;
-	padding-right: 100px; 
+	padding-right: 100px;
 	vertical-align: middle;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 24px;

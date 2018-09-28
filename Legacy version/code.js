@@ -13,14 +13,14 @@ $(document).ready(function(){
       str_img = "<img src= \"Files/Board_Aruki.png\" class = \"right_img\" id = \"right_aruki\">";
        $(str_img).appendTo($(".blockText"));
     } else if (imgpath === "Files/Diary.jpg"){
-       paragraph = "<p class = \"description\"> I blog sometimes, usually about my personal projects, things going on in my professional life, or just ramble on about think I think might be helpful to the rest of the world. <\p>" 
+       paragraph = "<p class = \"description\"> I blog sometimes, usually about my personal projects, things going on in my professional life, or just ramble on about think I think might be helpful to the rest of the world. <\p>"
         $(str_img).appendTo($(".blockText"));
     } else if (imgpath === "Files/Projects_image.jpg"){
        paragraph = "<p class = \"description\"  id = \"about_coding\"> I have worked on multiple projects throughout my college career, including : <ul class = \"description listconfig\" id = \"about_coding\"> <li> An Image Compressor and Decompressor (written in C) </li> <li> an implementation of the Intel x64 framework on the Universal Machine (written in C) </li> <li> an Abstract Game Solver capable of solving simple two player games like tic-tac-toe (written in SML) </li> <li> an implementation of the game Boggle (C++) </li> <li> a simulated Radar interface with motion detection (Java) </li><li> A game engine with physics (Java) </li><li> a network alarm that detects unencrypted passwords being sent over the network and intrusive scans being performed on the network (Python) </li><li> <u> <a href= \" https://github.com/sayakoftheleaf/Pupper\">Pupper </a> </u> - an application prototype that uses a swipe based interface to match dog-walkers to dogs in the area that need walking (Objective C) </li> </ul> </p>"
        str_img = "<img src= \"Files/pupper.png\" alt = \"pupper logo\" class = \"right_img\" id = \"right_pupper\">";
        $(str_img).appendTo($(".blockText"));
     } else if (imgpath === "Files/Profile_Image.jpg"){
-       paragraph = "<p class = \"description\" id = \"about\"> I am a current Senior at <u> <a href=\"http://www.tufts.edu/\">Tufts University </a> </u> majoring in <u> <a href=\"http://www.cs.tufts.edu/\">Computer science </a> </u> and minoring in <u> <a href=\"http://as.tufts.edu/fms/\"> Film and Media Studies </a> </u>. I spend my free time coding, reading, watching films, and writing about films. Academically and Professionally, I am mainly interested in cybersecurity - engineering and analysis, especially malware and threat analysis - machine learning and neural network algorithms, network administration, cloud computing, operating systems and embedded systems. I have previously pursued some of my Academic interests as Research internships. My Sophomore year, I worked at the <u> <a href = \"http://hci.cs.tufts.edu/\"> Tufts Human Computer Interaction Lab </a> </u> under <u> <a href = \"http://www.cs.tufts.edu/~jacob/\"> Professor Robert Jacob </a> </u>, and my Junior year, I worked at the <u> <a href = \" https://hrilab.tufts.edu/\"> Tufts Human Robot Interaction Lab </a> </u> under <u> <a href = \" https://hrilab.tufts.edu/people/matthias.php\"> Professor Matthias Scheutez </a> </u>. I am a member of the Omicron chapter of the fraternity Zeta Beta Tau, and has been involved in a number of other clubs and extra-curricular activities like the student non-profit coding initiative <u> <a href = \" http://jumbocode.org/projects.html\"> Jumbocode <\a> </u>, the campus TV station - TUTV, the Tufts Film Society and Tufts Philosophy Club. I have also studied Film Theory, Literary Thoery and PsychoAnalytic Theory under the incredible <u> <a href = \" https://en.wikipedia.org/wiki/Lee_Edelman\"> Lee Edelman <\a> </u>, and wrote a mock thesis paper on the nature of <u> <a href = \" \"> Lacanian Truth <\a> </u>.</p>"  
+       paragraph = "<p class = \"description\" id = \"about\"> I am a current Senior at <u> <a href=\"http://www.tufts.edu/\">Tufts University </a> </u> majoring in <u> <a href=\"http://www.cs.tufts.edu/\">Computer science </a> </u> and minoring in <u> <a href=\"http://as.tufts.edu/fms/\"> Film and Media Studies </a> </u>. I spend my free time coding, reading, watching films, and writing about films. Academically and Professionally, I am mainly interested in cybersecurity - engineering and analysis, especially malware and threat analysis - machine learning and neural network algorithms, network administration, cloud computing, operating systems and embedded systems. I have previously pursued some of my Academic interests as Research internships. My Sophomore year, I worked at the <u> <a href = \"http://hci.cs.tufts.edu/\"> Tufts Human Computer Interaction Lab </a> </u> under <u> <a href = \"http://www.cs.tufts.edu/~jacob/\"> Professor Robert Jacob </a> </u>, and my Junior year, I worked at the <u> <a href = \" https://hrilab.tufts.edu/\"> Tufts Human Robot Interaction Lab </a> </u> under <u> <a href = \" https://hrilab.tufts.edu/people/matthias.php\"> Professor Matthias Scheutez </a> </u>. I am a member of the Omicron chapter of the fraternity Zeta Beta Tau, and has been involved in a number of other clubs and extra-curricular activities like the student non-profit coding initiative <u> <a href = \" http://jumbocode.org/projects.html\"> Jumbocode <\a> </u>, the campus TV station - TUTV, the Tufts Film Society and Tufts Philosophy Club. I have also studied Film Theory, Literary Thoery and PsychoAnalytic Theory under the incredible <u> <a href = \" https://en.wikipedia.org/wiki/Lee_Edelman\"> Lee Edelman <\a> </u>, and wrote a mock thesis paper on the nature of <u> <a href = \" \"> Lacanian Truth <\a> </u>.</p>"
        str_img = "<img src= \""+ imgpath + "\" class = \"right_img\" id = \"right_profile\">";
        $(str_img).appendTo($(".blockText"));
     } else if (imgpath === "Files/Film_p.jpg"){
@@ -35,17 +35,19 @@ $(document).ready(function(){
       str_img = "<img src= \""+ imgpath + "\" class = \"right_img\" id = \"right_profile\">";
        $(str_img).appendTo($(".blockText"));
     }
- 
+
     $(paragraph).appendTo($(".highlight"));
-   
-    $(".Items").fadeOut(1000);   
-    $(".highlight").fadeIn(1000); 
+
+    $(".Items").fadeOut(1000);
+    $(".Contact").fadeOut(1000);
+    $(".highlight").fadeIn(1000);
 
     $(".back_button").click(function(){
 
       $(".highlight").empty();
       $(".highlight").fadeOut(1000);
       $(".Items").fadeIn(1000);
+      $(".Contact").fadeIn(1000);
     });
 
   });

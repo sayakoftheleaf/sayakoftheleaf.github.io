@@ -1,15 +1,16 @@
 {
-  "name": "gatsby-starter-2column-portfolio",
-  "description": "Gatsby 2 Column Portfolio Starter",
+  "name": "gatsby-personal-website-sayak-chatterjee",
+  "description": "Sayak Chatterjee's Portfolio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/praagyajoshi/gatsby-starter-2column-portfolio"
+    "url": "https://absurdist.life"
   },
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",
