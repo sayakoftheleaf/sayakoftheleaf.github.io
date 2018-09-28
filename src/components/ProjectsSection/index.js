@@ -14,20 +14,21 @@ class ProjectsSection extends React.Component {
           <ExperienceUnit
             logo={arukiLogo}
             colour="#362F2F"
-            title="Little Nomad"
+            title="Aruki"
             link="https://github.com/sayakoftheleaf/Aruki_Desktop"
-            timeperiod="2017 - ???"
-            subtitle="A platform for socially aware travellers. Runs on
-              React+Redux with a Ruby on Rails backend."
+            timeperiod="2017 - Present"
+            subtitle="A chess variant designed to hate a lot more permutations
+            than chess, so that brute force solutions aren't viable for any AI
+            playing the game. Current working on designing a Neural Network Based ML AI to run on it. App itself built on NodeJS/React/ElectronJS"
           />
           <ExperienceUnit
             logo={litLogo}
-            colour="#20DC6B"
-            title="Music Quiz for Spotify"
-            link="https://quiz.praagya.com/"
-            timeperiod="2017"
-            subtitle="A fun quiz which tests your knowledge of music that
-              you've saved. Built using React/Redux."
+            colour="#484F57"
+            title="LIT"
+            // link="https://quiz.praagya.com/"
+            timeperiod="2017 - Present"
+            subtitle="A social networking platform that helps people navigate
+            the social and cultural prospects of a city. Built using Native Android SDK, Firebase, and Google and Facebook SPI"
           />
           {/* <ExperienceUnit
             logo={walkthroughViewGif}
