@@ -45,6 +45,8 @@
 
   @include media('<=medium', '>xsmall') {
     padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     .image {
       background-size: auto;
@@ -54,6 +56,8 @@
 
   @include media('<=xsmall') {
     padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 
     .image {
       background-size: auto;
