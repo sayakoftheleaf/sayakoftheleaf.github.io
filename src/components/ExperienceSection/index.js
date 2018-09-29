@@ -2,7 +2,7 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import yogiLogo from '../../assets/images/experience/camjogi.png'
+import yogiLogo from '../../assets/images/experience/cam-yogi.png'
 import hriLogo from '../../assets/images/experience/hrilabmedium.jpg'
 import hciLogo from '../../assets/images/experience/hci.png'
 
@@ -13,7 +13,7 @@ class ExperienceSection extends React.Component {
         <div className="row">
           <ExperienceUnit
             logo={yogiLogo}
-            colour='#CB202D'
+            colour='#E5473B'
             title='Yogi Network'
             link='https://www.camyogi.in/'
             timeperiod='July 2018 - Present'
@@ -29,7 +29,7 @@ class ExperienceSection extends React.Component {
           />
           <ExperienceUnit
             logo={hciLogo}
-            colour='#403949'
+            colour='#FFFFFF'
             title='Tufts HCI Lab'
             link='http://hci.cs.tufts.edu/'
             timeperiod='2017 - 2018'
